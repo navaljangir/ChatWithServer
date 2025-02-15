@@ -97,13 +97,10 @@ npm run build && npm start
 - Node.js, Express.js, GraphQL, REST API, FastAPI, Server Actions
 
 ### Tools:
-- Redis, Prisma ORM, Drizzle ORM, SQL
+- Redis, Prisma ORM, Drizzle ORM, SQL, CI/CD, Docker
 
 ## 🤝 Contributing
 Contributions are welcome! If you'd like to improve this project, fork the repository, create a new branch, and submit a pull request.
-
-## 📜 License
-This project is licensed under the MIT License.
 
 ## 📬 Contact
 For questions or collaboration, reach out to me via GitHub: [github.com/navaljangir](https://github.com/navaljangir)
