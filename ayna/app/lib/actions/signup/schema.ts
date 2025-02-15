@@ -1,0 +1,12 @@
+import z from "zod"
+export const signUpSchema =z.object({
+    username : z.string().min(4 ,{message : 'Username must be of Minimum Length 4'}),
+    email : z.string().min(5, {message : 'Enter a mail'}).email('Enter a valid Email'),
+    password : z.string().min(8 , {message : 'Password Must be 8 Characters'}) ,
+})
+
+
+export const signInSchema = z.object({
+    identifier : z.string() , 
+    password : z.string().min(8 , {message : 'Enter Password must be og length 8'})
+})
